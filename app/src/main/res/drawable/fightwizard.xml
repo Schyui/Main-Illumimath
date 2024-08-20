@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fightcharacter" android:oneshot="false"
+    >
+
+    <item android:drawable="@drawable/wizef" android:duration="110"/>
+    <item android:drawable="@drawable/wizef2" android:duration="110"/>
+    <item android:drawable="@drawable/wizef3" android:duration="110"/>
+    <item android:drawable="@drawable/wizef4" android:duration="110"/>
+    <item android:drawable="@drawable/wizef5" android:duration="110"/>
+    <item android:drawable="@drawable/wizef6" android:duration="110"/>
+    <item android:drawable="@drawable/wizef7" android:duration="110"/>
+    <item android:drawable="@drawable/wizef8" android:duration="110"/>
+    <item android:drawable="@drawable/wizef7" android:duration="110"/>
+    <item android:drawable="@drawable/wizef6" android:duration="110"/>
+    <item android:drawable="@drawable/wizef5" android:duration="110"/>
+    <item android:drawable="@drawable/wizef4" android:duration="110"/>
+    <item android:drawable="@drawable/wizef3" android:duration="110"/>
+    <item android:drawable="@drawable/wizef2" android:duration="110"/>
+    <item android:drawable="@drawable/wizef" android:duration="110"/>
+</animation-list>

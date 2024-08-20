@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="460dp"
+    android:layout_height="270dp"
+    android:orientation="horizontal"
+    android:background="@color/neongold"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_width="460dp"
+        android:layout_height="300dp"
+        android:background="@color/black"
+   >
+
+        <ImageButton
+            android:id="@+id/dismiss"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="Dismiss"
+            android:layout_marginLeft="420dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/closebutton"
+            />
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:id="@+id/closebutton"/>
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_width="380dp"
+            android:layout_height="200dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:text="Music"
+                android:fontFamily="@font/pixelizedfont"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:id="@+id/music"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:text="ON"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="100dp"
+                android:fontFamily="@font/pixelizedfont"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_below="@+id/music"
+                android:id="@+id/onbutton"/>
+
+            <ImageButton
+                android:layout_below="@+id/music"
+                android:layout_toRightOf="@+id/onbutton"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="33dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/onsoundbutton"
+                android:id="@+id/onbuttonimg"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:text="OFF"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="100dp"
+                android:fontFamily="@font/pixelizedfont"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_below="@+id/onbutton"
+                android:id="@+id/offbutton"/>
+
+            <ImageButton
+                android:id="@+id/offbuttonimg"
+                android:layout_below="@+id/onbuttonimg"
+                android:layout_toRightOf="@+id/offbutton"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="33dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/mutebutton"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

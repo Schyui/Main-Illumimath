@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fightcharacterburst" android:oneshot="false"
+    >
+
+    <item android:drawable="@drawable/burst" android:duration="150"/>
+    <item android:drawable="@drawable/burst2" android:duration="150"/>
+    <item android:drawable="@drawable/burst3" android:duration="150"/>
+    <item android:drawable="@drawable/burst4" android:duration="150"/>
+    <item android:drawable="@drawable/burst5" android:duration="150"/>
+    <item android:drawable="@drawable/burst6" android:duration="150"/>
+    <item android:drawable="@drawable/burst8" android:duration="150"/>
+    <item android:drawable="@drawable/burst9" android:duration="150"/>
+    <item android:drawable="@drawable/burst10" android:duration="150"/>
+    <item android:drawable="@drawable/burst11" android:duration="150"/>
+    <item android:drawable="@drawable/burst12" android:duration="150"/>
+    <item android:drawable="@drawable/burst13" android:duration="150"/>
+    <item android:drawable="@drawable/burst14" android:duration="150"/>
+    <item android:drawable="@drawable/burst15" android:duration="150"/>
+
+</animation-list>

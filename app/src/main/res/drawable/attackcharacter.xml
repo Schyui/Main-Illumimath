@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hitcharacter" android:oneshot="false"
+    >
+    <item android:drawable="@drawable/tile247" android:duration="70"/>
+    <item android:drawable="@drawable/tile248" android:duration="70"/>
+    <item android:drawable="@drawable/tile249" android:duration="70"/>
+    <item android:drawable="@drawable/tile250" android:duration="70"/>
+    <item android:drawable="@drawable/tile251" android:duration="70"/>
+    <item android:drawable="@drawable/tile252" android:duration="70"/>
+    <item android:drawable="@drawable/tile253" android:duration="70"/>
+    <item android:drawable="@drawable/tile254" android:duration="70"/>
+    <item android:drawable="@drawable/tile255" android:duration="70"/>
+    <item android:drawable="@drawable/tile256" android:duration="70"/>
+    <item android:drawable="@drawable/tile257" android:duration="70"/>
+    <item android:drawable="@drawable/tile258" android:duration="70"/>
+    <item android:drawable="@drawable/tile259" android:duration="70"/>
+</animation-list>

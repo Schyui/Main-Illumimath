@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/characteridle" android:oneshot="false"
+    >
+    <item android:drawable="@drawable/med1" android:duration="120"/>
+    <item android:drawable="@drawable/med2" android:duration="120"/>
+    <item android:drawable="@drawable/med3" android:duration="120"/>
+    <item android:drawable="@drawable/med4" android:duration="120"/>
+    <item android:drawable="@drawable/med5" android:duration="120"/>
+
+
+
+</animation-list>

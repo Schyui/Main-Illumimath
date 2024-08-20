@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/characteridle" android:oneshot="false"
+    >
+    <item android:drawable="@drawable/patch1" android:duration="170"/>
+    <item android:drawable="@drawable/patch2" android:duration="170"/>
+    <item android:drawable="@drawable/patch3" android:duration="170"/>
+
+
+
+
+
+
+
+</animation-list>

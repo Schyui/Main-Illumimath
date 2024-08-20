@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/characteridle" android:oneshot="false"
+    >
+    <item android:drawable="@drawable/tile091" android:duration="200"/>
+    <item android:drawable="@drawable/tile092" android:duration="200"/>
+    <item android:drawable="@drawable/tile093" android:duration="200"/>
+    <item android:drawable="@drawable/tile092" android:duration="200"/>
+
+</animation-list>
